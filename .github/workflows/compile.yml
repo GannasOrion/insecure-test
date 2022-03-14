@@ -19,5 +19,5 @@ jobs:
           java-package: jdk
           java-version: ${{ matrix.java }}
       - name: Compile the Project
-        working-directory: insecure-test
+        working-directory: Dockerfile 
         run: mvn -B compile
